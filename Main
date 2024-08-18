@@ -1,15 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()    
 local Window = OrionLib:MakeWindow({Name = "Example Hub | Fling Things And People", HidePremium = false, Introenabled = ,IntroText = "Example Hub"saveConfig = true, ConfigFolder = "Example Hub"})
 
---values
-    
-_G.
-    
-
---functions
-
-Function 
-    
  --tabs
 local FarmTab = Window:MakeTab({
 	Name = "Main",
@@ -26,9 +17,3 @@ FarmTab:AddToggle({
 	end    
 })
 
-
-    
-
-    
-end
-OrionLib:Init()
